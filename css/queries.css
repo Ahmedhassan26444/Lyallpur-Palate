@@ -24,7 +24,6 @@
 
 @media (max-width: 75em) {
   html {
-    /* 9px / 16px  */
     font-size: 56.25%;
   }
 
@@ -64,7 +63,6 @@
 
 @media (max-width: 59em) {
   html {
-    /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
 
@@ -142,15 +140,7 @@
     align-items: center;
     justify-content: center;
     transition: all 0.5s ease-in;
-
-    /* Hide navigation */
-    /* Allows NO transitions at all */
-    /* display: none; */
-
-    /* 1) Hide it visually */
     opacity: 0;
-
-    /* 2) Make it unaccessible to mouse and keyboard */
     pointer-events: none;
 
     /* 3) Hide it from screen readers */
